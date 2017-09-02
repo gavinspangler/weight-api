@@ -6,7 +6,7 @@ var express = require('express'),
   bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://spanglgj:Nivag713@ds161823.mlab.com:61823/weight', {
+mongoose.connect('mongodb://<username>:<password>@ds161823.mlab.com:61823/weight', {
   useMongoClient: true
 });
 
